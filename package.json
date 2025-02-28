@@ -1,5 +1,5 @@
 {
-  "name": "notebackend",
+  "name": "backend-app-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,8 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Wes Wollner - VMI",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.1",
