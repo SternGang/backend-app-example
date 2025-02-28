@@ -1,0 +1,17 @@
+### get all resources
+GET http://localhost:8080/api/notes
+
+### get single resource
+GET http://localhost:8080/api/notes/67c07b761d3ebf61ff5a1b83
+
+### create resource
+POST http://localhost:8080/api/notes HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Go shopping",
+    "content": "get milk"
+}
+
+### delete resource
+DELETE http://localhost:8080/api/notes/67bf914a27ae16c3fe56646c
